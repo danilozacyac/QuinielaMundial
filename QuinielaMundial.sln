@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuinielaMundial", "QuinielaMundial\QuinielaMundial.csproj", "{566DBC8E-5452-4BF0-AF3A-CF47FF3A5387}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuinielaMundialTests", "QuinielaMundialTests\QuinielaMundialTests.csproj", "{385A105A-F061-46CD-9DCA-EFA819951D10}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{566DBC8E-5452-4BF0-AF3A-CF47FF3A5387}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{566DBC8E-5452-4BF0-AF3A-CF47FF3A5387}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{566DBC8E-5452-4BF0-AF3A-CF47FF3A5387}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{566DBC8E-5452-4BF0-AF3A-CF47FF3A5387}.Release|Any CPU.Build.0 = Release|Any CPU
+		{385A105A-F061-46CD-9DCA-EFA819951D10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{385A105A-F061-46CD-9DCA-EFA819951D10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{385A105A-F061-46CD-9DCA-EFA819951D10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{385A105A-F061-46CD-9DCA-EFA819951D10}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
