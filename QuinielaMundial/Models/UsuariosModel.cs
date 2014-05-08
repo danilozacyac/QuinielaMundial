@@ -47,7 +47,7 @@ namespace QuinielaMundial.Models
                         message = "Registro exitoso.\\nUser Id: " + userId.ToString();
                         break;
                 }
-                ClientScript.RegisterStartupScript(GetType(), "alert", "alert('" + message + "');", true);
+                //ClientScript.RegisterStartupScript(GetType(), "alert", "alert('" + message + "');", true);
             }
 
             return message;

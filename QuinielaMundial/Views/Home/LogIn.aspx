@@ -11,6 +11,16 @@
     protected void BtnRegistrar_Click(object sender, EventArgs e)
     {
         QuinielaMundial.Dao.Usuarios usuario = new QuinielaMundial.Dao.Usuarios();
+        usuario.Paterno = TxtPaterno.Text;
+        usuario.Materno = TxtMaterno.Text;
+        usuario.Nombre = TxtNombre.Text;
+        usuario.Usuario = txtUsername.Text;
+        usuario.Password = txtPassword.Text;
+        usuario.Mail = txtEmail.Text;
+
+        string message = new QuinielaMundial.Models.UsuariosModel().SetNewUser(usuario);
+        
+        ClientScript.RegisterStartupScript(GetType(), "alert", "alert('" + message + "');", true);
     }
 </script>
 
